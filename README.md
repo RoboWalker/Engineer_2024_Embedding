@@ -8,6 +8,8 @@ RoboWalker战队的工程机器人在区域赛的时候取得了不错的战绩�
 
 自定义控制器代码仓库：https://github.com/RoboWalker/Engineer2024_Custom_Contoller
 
+技术文档（完整形态考核版本）：https://github.com/RoboWalker/Engineer2024_Custom_Contoller/blob/main/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6RoboWalker_2024%E5%B7%A5%E7%A8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3.pdf
+
 下位机代码功能并不复杂，主要是转发来自上位机的控制数据，一些简单的模式处理，和上位机挂掉时候的备用解算算法（到比赛结束也没有用到）。复活赛的时候写了一个“末端两电机翻转”的操作模式（`RobotArm_Mode_Reverse`），为了让机械臂能在某一侧的五级矿角度下伸的更远，但那个模式的bug可能没有找全，大家可以忽略掉相关的代码。
 
 ## 工具链
